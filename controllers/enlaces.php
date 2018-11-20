@@ -9,28 +9,24 @@ class Enlaces
 	{
 
 
-		if(isset($_GET["action"])) {
-
-			if (strpos($_GET["action"], "_")) {
-			
-				$extracto = explode("_", $_GET["action"]);
-
-				$_GET["action"] = $extracto[0];
-				$_GET["id"] = $extracto[1];
-
-			}
+		if(isset($_GET["action2"]))
+		{
 
 			$enlaces = $_GET["action"];
+			$product = $_GET["action2"];
 
-		}
+		} elseif (isset($_GET["action"])) {
 
-		else{
+			$enlaces = $_GET["action"];
+			$product = null;
+			
+		} else {
 
 			$enlaces = "index";
-
+			$product = null;
 		}
 		
-		$respuesta = EnlacesModels::enlacesModel($enlaces);
+		$respuesta = EnlacesModels::enlacesModel($enlaces, $product);
 		include $respuesta;
 
 	}

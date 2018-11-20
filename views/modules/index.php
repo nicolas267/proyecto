@@ -1,611 +1,812 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Colorlib Diner</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  </head>
-  <body>
-    
+<head>
 
-    <div class="site-wrap">
-      
-      <nav class="site-menu">
-        <div class="site-menu-inner">
-          <ul class="list-unstyled">
-            <li class="active"><a href="#>index.html">Home</a></li>
-            <li><a href="#>about.html">About Us</a></li>
-            <li><a href="#>menu.html">Our Menu</a></li>
-            <li><a href="#>blog.html">Our Blog</a></li>
-            <li><a href="#>reservation.html">Reserve A Table</a></li>
-            <li><a href="#>contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+<meta charset="UTF-8">
+<title>Motor</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewsport" content="width=device-width, initial-scale=1.0">
 
-      <header class="site-header">
-        <div class="row align-items-center">
-          <div class="col-5 col-md-3">
-             <ul class="list-unstyled social">
-              <li><a href="#>#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#>#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#>#"><span class="fa fa-instagram"></span></a></li>
-            </ul>
-          </div>
-          <div class="col-2 col-md-6 text-center">
-            <a href="#>index.html" class="site-logo">D</a>
-          </div>
-          <div class="col-5 col-md-3 text-right menu-burger-wrap">
-            <a href="#>#" class="site-nav-toggle js-site-nav-toggle"><i></i></a>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,300italic,300&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
-          </div>
-        </div>
-       
-      </header> <!-- site-header -->
-      
-      <div class="main-wrap">
-        <div class="cover_1">
-          <div class="img_bg" style="background-image: url(views/bower_components/img/slider-1.jpg);" data-stellar-background-ratio="0.5">
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-md-12" data-aos="fade-up">
-                  <h2 class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa sint amet aliquam velit minima tenetur quisquam beatae molestiae possimus dicta.</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- .cover_1 -->
-
-        <div class="section services-section">
-          <div class="container">
-             
-            <div class="row">
-              <div class="col-md-6 col-lg-3" data-aos="fade-up">
-                <div class="media feature-icon d-block text-center">
-                  <div class="icon">
-                    <span class="flaticon-soup"></span>
-                  </div>
-                  <div class="media-body">
-                    <h3>Quality Cuisine</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-                <div class="media feature-icon d-block text-center">
-                  <div class="icon">
-                    <span class="flaticon-vegetables"></span>
-                  </div>
-                  <div class="media-body">
-                    <h3>Fresh Food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-                <div class="media feature-icon d-block text-center">
-                  <div class="icon">
-                    <span class="flaticon-pancake"></span>
-                  </div>
-                  <div class="media-body">
-                    <h3>Friendly Staff</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
-                <div class="media feature-icon d-block text-center">
-                  <div class="icon">
-                    <span class="flaticon-tray"></span>
-                  </div>
-                  <div class="media-body">
-                    <h3>Easy Reservation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- .section -->
-
-        <div class="section">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-7 text-center"  data-aos="fade-up">
-                <h2 class="mb-4">Our Specialties</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eum voluptatem odio expedita laborum fugit repudiandae dolorem consectetur.</p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- .section -->
-        
-        <div class="section pt-0 pb-0">
-
-          <div class="menus d-flex bg-light">
-            <div class="d-flex item">
-              <div class="image" style="background-image: url(views/bower_components/img/img_1.jpg);" data-aos="fade"></div>
-              <div class="text">
-                <h3>Grilled Egg With Garlic</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
-                <p class="price">$5.00</p>
-              </div>
-            </div> <!-- .item -->
-
-            <div class="d-flex item">
-              <div class="image order-2 order-md-1"  style="background-image: url(views/bower_components/img/img_2.jpg);" data-aos="fade" data-aos-delay="100"></div>
-              <div class="text order-1 order-md-2">
-                <h3>Organic Tomato Salad</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
-                <p class="price">$6.00</p>
-              </div>
-            </div> <!-- .item -->
-
-            <div class="d-flex item">
-              <div class="image order-1 order-md-2 order-lg-2 order-xl-1" style="background-image: url(views/bower_components/img/img_3.jpg);" data-aos="fade" data-aos-delay="200"></div>
-              <div class="text order-2 order-md-1 order-lg-1 order-xl-2">
-                <h3>Flatbread</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
-                <p class="price">$9.00</p>
-                
-              </div>
-            </div> <!-- .item -->
-
-            <div class="d-flex item">
-              <div class="image order-2" style="background-image: url(views/bower_components/img/img_4.jpg);" data-aos="fade" data-aos-delay="300"></div>
-              <div class="text order-1 mb-3">
-                <h3>Rack Of Lamb</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
-                <p class="price">$13.00</p>
-              </div>
-            </div> <!-- .item -->
-
-            <div class="d-flex item">
-              <div class="image order-1 order-lg-1 order-xl-2" style="background-image: url(views/bower_components/img/img_5.jpg);" data-aos="fade" data-aos-delay="400"></div>
-              <div class="text order-2 order-lg-2 order-xl-1">
-                <h3>Eggplant Parmigiana</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
-                <p class="price">$9.00</p>
-              </div>
-            </div> <!-- .item -->
-
-            <div class="d-flex item">
-              <div class="image order-2 order-md-1 order-lg-1 order-xl-2" style="background-image: url(views/bower_components/img/img_6.jpg);" data-aos="fade" data-aos-delay="500"></div>
-              <div class="text order-1 order-md-2 order-lg-2 order-xl-1">
-                <h3>Spicy Meatballs</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
-                <p class="price">$7.00</p>
-              </div>
-            </div> <!-- .item -->
-
-          </div>
-        </div> <!-- .section -->
-
-        <div class="section" data-aos="fade">
-          <div class="container">
-            <div class="row justify-content-center text-center" data-aos="fade-up">
-              <div class="col-md-8">
-                <div class="owl-carousel home-slider-loop-false">
-
-                
-                  <div class="item">
-                    <blockquote class="testimonial">
-                      <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat recusandae molestias incidunt sapiente sit numquam delectus mollitia! Non laudantium impedit voluptas consequatur corrupti. Cumque consequuntur nemo eos et error!&rdquo;</p>
-                      <div class="author">
-                        <img src="#>img/person_1.jpg" alt="Image placeholder" class="mb-3">
-                        <h4>Maxim Smith</h4>
-                        <p>CEO, Founder</p>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <div class="item">
-                    <blockquote class="testimonial">
-                      <p>&ldquo;Sint adipisci laborum dolorum ipsa quidem alias ipsum aperiam aut! Quis rerum soluta dolorem iure nihil velit error sequi? Dignissimos accusantium adipisci unde officia? Dolores aut sequi dolorum repellendus quod.&rdquo;</p>
-                      <div class="author">
-                        <img src="#>img/person_2.jpg" alt="Image placeholder" class="mb-3">
-                        <h4>Geert Green</h4>
-                        <p>CEO, Founder</p>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <div class="item">
-                    <blockquote class="testimonial">
-                      <p>&ldquo;Ratione alias iure ab facere quia aliquam dolor et voluptates esse nihil corporis distinctio hic ea quo ducimus autem cum amet. Quos accusamus iusto porro nulla temporibus numquam commodi soluta.&rdquo;</p>
-                      <div class="author">
-                        <img src="#>img/person_3.jpg" alt="Image placeholder" class="mb-3">
-                        <h4>Dennis Roman</h4>
-                        <p>CEO, Founder</p>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <div class="item">
-                    <blockquote class="testimonial">
-                      <p>&ldquo;Ad quod aspernatur ipsa. Numquam expedita delectus qui ad explicabo voluptas eos vel reiciendis magnam rerum quaerat quisquam accusantium quae saepe ipsam ullam ut ea molestiae porro. Recusandae veniam maxime.&rdquo;</p>
-                      <div class="author">
-                        <img src="#>img/person_2.jpg" alt="Image placeholder" class="mb-3">
-                        <h4>Geert Green</h4>
-                        <p>CEO, Founder</p>
-                      </div>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div> <!-- .section -->
-
-        <div class="site-half-wrap d-block d-lg-flex">
-          <div class="block-half" data-aos="fade">
-            <div class="image-bg-fullwidth" style="background-image: url(views/bower_components/img/img_1.jpg);"></div>
-            <div class="half d-block d-lg-flex">
-              <div class="text">
-                <h2 class="mb-4">Feature Menu</h2>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eos quasi, necessitatibus dicta. Temporibus odit sed quisquam commodi, in aut, repellendus porro saepe minus, enim obcaecati fugiat optio eaque odio?</p>
-                <p><a href="#>#" class="btn btn-primary btn-outline-primary">View All Menu</a></p>
-              </div>
-              <div class="image" style="background-image: url(views/bower_components/img/img_2.jpg);"></div>
-            </div>
-          </div>
-          <div class="block-half"  data-aos="fade">
-            <div class="half d-block d-lg-flex">
-              <div class="text">
-                <h2 class="mb-4">Master Chef</h2>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eos quasi, necessitatibus dicta. Temporibus odit sed quisquam commodi, in aut, repellendus porro saepe minus, enim obcaecati fugiat optio eaque odio?</p><p><a href="#>#" class="btn btn-primary btn-outline-primary">Meet Our chef</a></p>
-              </div>
-              <div class="image" style="background-image: url(views/bower_components/img/chef_1.jpg);"></div>
-            </div>
-            <div class="image-bg-fullwidth" style="background-image: url(views/bower_components/img/chef_2.jpg);"></div>
-          </div>
-        </div>
-
-        <div class="section">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-8" data-aos="fade-up">
-
-                <h2 class="mb-5 text-center">Menu List with Price</h2>
-
-                <ul class="nav site-tab-nav" id="pills-tab" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" id="pills-breakfast-tab" data-toggle="pill" href="#>#pills-breakfast" role="tab" aria-controls="pills-breakfast" aria-selected="true">Breakfast</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="pills-lunch-tab" data-toggle="pill" href="#>#pills-lunch" role="tab" aria-controls="pills-lunch" aria-selected="false">Brunch</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="pills-dinner-tab" data-toggle="pill" href="#>#pills-dinner" role="tab" aria-controls="pills-dinner" aria-selected="false">Dinner</a>
-                  </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Warm Spinach Dip &amp; Chips</a></h3>
-                        <p>Spinach and artichokes in a creamy cheese dip with warm tortilla chips &amp; salsa.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$10.49</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Key Wast Machos</a></h3>
-                        <p>Crisp tortilla and plantain chips covered with lightly spiced ground beef, melted cheese, pickled jalapeños, guacamole, sour cream and salsa.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$11.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Crispy Onions Rings</a></h3>
-                        <p>A heaping mountain of rings, handmade with Panko breading and shredded coconut flakes.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$11.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Lobster &amp; Shrimp Quesadilla</a></h3>
-                        <p>Lobster and tender shrimp, with onions, sweet peppers, spinach and our three cheese blend. Griddled and served with tomato salsa and sour cream.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$13.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
+<link rel="stylesheet" href="views/css/font-awesome.min.css">
+<link rel="stylesheet" href="views/css/zabuto_calendar.css">
+<link rel="stylesheet" href="views/css/flexslider.css">
+<link rel="stylesheet" href="views/css/jquery.fancybox.css">
+<link rel="stylesheet" href="views/css/ion.rangeSlider.css">
+<link rel="stylesheet" href="views/css/ion.rangeSlider.skinFlat.css">
+<link rel="stylesheet" href="views/css/style.css">
+<link rel="stylesheet" href="views/css/media.css">
 
 
-                  </div>
-                  <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
-                    
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Jumbo Lump Crab Stack</a></h3>
-                        <p>Spinach and artichokes in a creamy cheese dip with warm tortilla chips &amp; salsa.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$12.49</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
+<!--[if lt IE 9]>
+<script src="views/js/html5shiv.js"></script>
+<![endif]-->
 
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Jamaican Chicken Wings</a></h3>
-                        <p>Crisp tortilla and plantain chips covered with lightly spiced ground beef, melted cheese, pickled jalapeños, guacamole, sour cream and salsa.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$15.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Bahamian Seafood Chowder</a></h3>
-                        <p>A heaping mountain of rings, handmade with Panko breading and shredded coconut flakes.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$10.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Grilled Chicken &amp; Tropical Fruit on Mixed Greens</a></h3>
-                        <p>Lobster and tender shrimp, with onions, sweet peppers, spinach and our three cheese blend. Griddled and served with tomato salsa and sour cream.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$12.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                  </div>
-                  <div class="tab-pane fade" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">
-                    
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Grilled Top Sirlion Steak</a></h3>
-                        <p>Spinach and artichokes in a creamy cheese dip with warm tortilla chips &amp; salsa.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$18.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Steak Oscar</a></h3>
-                        <p>Crisp tortilla and plantain chips covered with lightly spiced ground beef, melted cheese, pickled jalapeños, guacamole, sour cream and salsa.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$23.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Skirt Steak Churrasco</a></h3>
-                        <p>A heaping mountain of rings, handmade with Panko breading and shredded coconut flakes.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$20.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                    <div class="d-block d-md-flex menu-food-item">
-                      <div class="text order-1 mb-3">
-                        <h3><a href="#>#">Grilled Beef Steak</a></h3>
-                        <p>Lobster and tender shrimp, with onions, sweet peppers, spinach and our three cheese blend. Griddled and served with tomato salsa and sour cream.</p>
-                      </div>
-                      <div class="price order-2">
-                        <strong>$20.99</strong>
-                      </div>
-                    </div> <!-- .menu-food-item -->
-
-                  </div>
-                </div>
+</head>
+<body>
 
 
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- Header - start -->
+<div class="header">
 
-        <div class="section bg-light">
-          <div class="container">
-            <div class="row justify-content-center mb-5" data-aos="fade-up">
-              <div class="col-md-8  text-center">
-                <h2 class="mb-3">Events &amp; News</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga, alias distinctio voluptatum magni voluptatibus.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="media d-block d-lg-flex mb-5"  data-aos="fade-up" data-aos-delay="100">
-                  <figure class="mr-4 horizontal">
-                    <img src="#>img/news_1.jpg" alt="Image placeholder" class="img-fluid">
-                  </figure>
-                  <div class="media-body">
-                    <h3><a href="#>#">Birthday Party Held in Diner Restaurant</a></h3>
-                    <p class="post-meta"><span><span class="fa fa-calendar"></span> April 22, 2018</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
-                    <p><a href="#>#" class="btn btn-primary btn-outline-primary btn-sm">Read More</a></p>
-                  </div>
-                </div> <!-- .media -->
+	<!-- Navmenu Mobile Toggle Button -->
+	<a href="views/#" class="header-menutoggle" id="header-menutoggle">Menu</a>
 
-                <div class="media d-block d-lg-flex mb-5"  data-aos="fade-up">
-                  <figure class="mr-4 horizontal">
-                    <img src="#>img/news_2.jpg" alt="Image placeholder" class="img-fluid" data-aos-delay="200">
-                  </figure>
-                  <div class="media-body">
-                    <h3><a href="#>#">Drinks Overload</a></h3>
-                    <p class="post-meta"><span><span class="fa fa-calendar"></span> April 22, 2018</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
-                    <p><a href="#>#" class="btn btn-primary btn-outline-primary btn-sm">Read More</a></p>
-                  </div>
-                </div> <!-- .media -->
+	<div class="header-info">
 
-                <div class="media d-block d-lg-flex mb-5"  data-aos="fade-up"  data-aos-delay="300">
-                  <figure class="mr-4 horizontal">
-                    <img src="#>img/img_1.jpg" alt="Image placeholder" class="img-fluid">
-                  </figure>
-                  <div class="media-body">
-                    <h3><a href="#>#">New Recipe: Steak Steak Steak.</a></h3>
-                    <p class="post-meta"><span><span class="fa fa-calendar"></span> April 22, 2018</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
-                    <p><a href="#>#" class="btn btn-primary btn-outline-primary btn-sm">Read More</a></p>
-                  </div>
-                </div> <!-- .media -->
+		<!-- Personal Menu -->
+		<div class="header-personal">
+			<a href="views/#" class="header-gopersonal"></a>
+			<ul>
+				<li>
+					<a href="views/message.html">Messages <span>12</span></a>
+				</li>
+				<li>
+					<a href="views/#">Bookmarks <span>6</span></a>
+				</li>
+				<li>
+					<a href="views/cart.html">Shopping Cart <span>5</span></a>
+				</li>
+				<li class="header-order">
+					<a href="views/orders.html">Order Status</a>
+				</li>
+				<li>
+					<a href="views/#">Settings</a>
+				</li>
+				<li>
+					<a href="views/#">Log out</a>
+				</li>
+			</ul>
+		</div>
 
+		<!-- Small Cart -->
+		<a href="views/cart.html" class="header-cart">
+			<div class="header-cart-inner">
+				<p class="header-cart-count">
+					<img src="views/img/cart.png" alt="">
+					<span>0</span>
+				</p>
+				<p class="header-cart-summ">$0</p>
+			</div>
+		</a>
 
-              </div> <!-- .col-md-6 -->
+		<a href="views/#" class="header-compare"></a>
+		<a href="views/#" class="header-favorites"></a>
 
-              <div class="col-lg-6">
-                <div class="media d-block mb-5" data-aos="fade-up"  data-aos-delay="400">
-                  <figure>
-                    <a href="#>#"><img src="#>img/news_1_large.jpg" alt="Image placeholder" class="img-fluid"></a>
-                  </figure>
-                  <div class="media-body">
-                    <h3><a href="#>#">Food that are best for your overall health</a></h3>
-                    <p class="post-meta"><span><span class="fa fa-calendar"></span> April 22, 2018</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus</p>
-                    <p><a href="#>#" class="btn btn-primary btn-outline-primary btn-sm">Read More</a></p>
-                  </div>
-                </div> <!-- .media -->
-              </div>
-            </div>
-          </div>
-        </div> <!-- .section -->
+		<!-- Search Form -->
+		<a href="views/#" class="header-searchbtn" id="header-searchbtn"></a>
+		<form action="#" class="header-search" id="header-search">
+			<input type="text" placeholder="Search parts or vehicles">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</form>
 
-        <div class="section">
-          <div class="container">
-            <div class="row justify-content-center mb-5" data-aos="fade-up">
-              <div class="col-md-8  text-center">
-                <h2 class="mb-3">Why Choose Us</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga, alias distinctio voluptatum magni voluptatibus.</p>
-              </div>
-            </div>
-            <div class="row large-gutters">
-              <div class="col-md-6"  data-aos="fade-up" data-aos-delay="200">
-                <img src="#>img/img_2.jpg" alt="Image placeholder" class="img-fluid rounded">
-              </div>
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="accordion" id="accordion">
-                  <div class="accordion-item">
-                    <h3 class="mb-0">
-                      <a class="btn-block p-3" data-toggle="collapse" href="#>#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">Quality Cuisine <span class="icon"></span></a>
-                    </h3>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="p-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae cumque perspiciatis aperiam accusantium facilis provident aspernatur nisi optio debitis dolorum, est eum eligendi vero aut ad necessitatibus nulla sit labore doloremque magnam! Ex molestiae, dolor tempora, ad fuga minima enim mollitia consequuntur, necessitatibus praesentium eligendi officia recusandae culpa tempore eaque quasi ullam magnam modi quidem in amet. Quod debitis error placeat, tempore quasi aliquid eaque vel facilis culpa voluptate.</p>
-                      </div>
-                    </div>
-                  </div> <!-- .accordion-item -->
-                  
-                  <div class="accordion-item">
-                    <h3 class="mb-0">
-                      <a class="btn-block p-3" data-toggle="collapse" href="#>#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">Fresh Food <span class="icon"></span></a>
-                    </h3>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="p-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ad laborum expedita. Nostrum iure atque enim quisquam minima distinctio omnis, consequatur aliquam suscipit, quidem, esse aspernatur! Libero, excepturi animi repellendus porro impedit nihil in doloremque a quaerat enim voluptatum, perspiciatis, quas dignissimos maxime ut cum reiciendis eius dolorum voluptatem aliquam!</p>
-                      </div>
-                    </div>
-                  </div> <!-- .accordion-item -->
+	</div>
 
-                  <div class="accordion-item">
-                    <h3 class="mb-0">
-                      <a class="btn-block p-3" data-toggle="collapse" href="#"">#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">Friendly Staff  <span class="icon"></span></a>
-                    </h3>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="p-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ad laborum expedita. Nostrum iure atque enim quisquam minima distinctio omnis, consequatur aliquam suscipit, quidem, esse aspernatur! Libero, excepturi animi repellendus porro impedit nihil in doloremque a quaerat enim voluptatum, perspiciatis, quas dignissimos maxime ut cum reiciendis eius dolorum voluptatem aliquam!</p>
-                      </div>
-                    </div>
-                  </div> <!-- .accordion-item -->
+	<!-- Logotype -->
+	<p class="header-logo">
+		<a href="views/index.html"><img src="views/img/logo.png" alt=""></a>
+	</p>
 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- .section -->
+	<!-- Navmenu - start -->
+	<nav id="top-menu">
+		<ul>
+			<li>
+				<a href="views/index.html">Home</a>
+			</li>
+			<li class="has-child active">
+				<a href="views/catalog.html">Catalog</a>
+			</li>
+			<li class="has-child">
+				<a href="views/blog.html">Blog</a>
+				<i class="fa fa-angle-down"></i>
+				<ul>
+					<li><a href="views/blog.html">Blog: Standart</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="views/contacts.html">Contacts</a>
+			</li>
+			<li class="has-child">
+				<a href="views/orders.html">Orders</a>
+				<i class="fa fa-angle-down"></i>
+				<ul>
+					<li><a href="views/orders.html">Orders</a></li>
+					<li><a href="views/message.html">Messages</a></li>
+					<li><a href="views/cart.html">Shopping Cart</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<!-- Navmenu - end -->
+
+</div>
+<!-- Header - end -->
+
+<!-- Main Content - start -->
+<main>
 
 
-        
+<!-- Frontpage Slider -->
+<div class="frontslider-wrap">
+	<div class="responisve-container">
+		<div class="slider" id="front-slider">
+			<div class="slide">
+				<img 	src="views/img/front-slider/1.png"
+						data-position="45,430" data-in="fade" data-delay="0" data-out="fade" alt="American Legends">
+				<p 		class="caption1"			
+						data-position="50,0" data-in="right" data-step="0" data-out="fade" data-delay="0">AMERICAN</p>
+				<p 		class="caption2" 	
+						data-position="150,0" data-in="right" data-step="0" data-out="fade" data-delay="0">LEGENDS</p>		
+			</div>
+			<div class="slide">
+				<img 	src="views/img/front-slider/2.png"
+						data-position="50,518" data-in="fade" data-delay="0" data-out="fade" alt="Legendary Bike">
+				<p 		class="caption1"			
+						data-position="50,0" data-in="right" data-step="0" data-out="fade" data-delay="0">OFFROAD</p>
+				<p 		class="caption2" 	
+						data-position="150,0" data-in="right" data-step="0" data-out="fade" data-delay="0">KING</p>	
+			</div>
+			<div class="slide">
+				<img 	src="views/img/front-slider/3.png"
+						data-position="21,480" data-in="fade" data-delay="0" data-out="fade" alt="Dream Car">
+				<p 		class="caption1"			
+						data-position="50,0" data-in="right" data-step="0" data-out="fade" data-delay="0">DREAM</p>
+				<p 		class="caption2" 	
+						data-position="150,0" data-in="right" data-step="0" data-out="fade" data-delay="0">CARS</p>	
+			</div>
+		</div>
+	</div>
+</div>
 
-      </div> <!-- .main-wrap -->
-      
 
-      <footer>
-        <div class="site-footer">
-          <div class="container">
-            <div class="row small-gutters mb-5">
-              <div class="col-md-6 col-lg-3 mb-5" data-aos="fade" data-aos-delay="100">
-                <div class="footer-widget">
-                  <h3>Diner Restaurant</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel neque, odio illum. Est minima sint minus sunt ducimus.</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 mb-5" data-aos="fade" data-aos-delay="200">
-                <div class="footer-widget">
-                  <h3>Lunch Service</h3>
-                  <p>Booking from 12:00pm - 1:30pm</p>
-                  <h3>Dinner Service</h3>
-                  <p>Everyday: <br> Booking from 6:00pm - 9:00pm</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 mb-5" data-aos="fade" data-aos-delay="300">
-                <div class="footer-widget">
-                  <h3>Quick Links</h3>
-                  <ul>
-                    <li><a href="#>#">Help &amp; Support</a></li>
-                    <li><a href="#>#">Privacy Policy</a></li>
-                    <li><a href="#>#">Get in Touch</a></li>
-                    <li><a href="#>#">Testimonials</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 mb-5" data-aos="fade" data-aos-delay="400">
-                <div class="footer-widget footer-contact-widget">
+<!-- Categories List -->
+<div class="cont">
+<ul class="frontcategs">
+	<li>
+		<a href="views/catalog.html">
+			<span class="frontcategs-img">
+				<img src="views/img/front-categories/frcateg1.png" alt="">
+				<img src="views/img/front-categories/frcateg1h.png" alt="">
+			</span>
+			<p>Automobiles</p>
+		</a>
+	</li>
+	<li>
+		<a href="views/catalog.html">
+			<span class="frontcategs-img">
+				<img src="views/img/front-categories/frcateg2.png" alt="">
+				<img src="views/img/front-categories/frcateg2h.png" alt="">
+			</span>
+			<p>Motorcycles</p>
+		</a>
+	</li>
+	<li>
+		<a href="views/catalog.html">
+			<span class="frontcategs-img">
+				<img src="views/img/front-categories/frcateg3.png" alt="">
+				<img src="views/img/front-categories/frcateg3h.png" alt="">
+			</span>
+			<p>ATVs</p>
+		</a>
+	</li>
+	<li>
+		<a href="views/catalog.html">
+			<span class="frontcategs-img">
+				<img src="views/img/front-categories/frcateg4.png" alt="">
+				<img src="views/img/front-categories/frcateg4h.png" alt="">
+			</span>
+			<p>Snowmobiles</p>
+		</a>
+	</li>
+	<li>
+		<a href="views/catalog.html">
+			<span class="frontcategs-img">
+				<img src="views/img/front-categories/frcateg5.png" alt="">
+				<img src="views/img/front-categories/frcateg5h.png" alt="">
+			</span>
+			<p>UTVs</p>
+		</a>
+	</li>
+	<li>
+		<a href="views/catalog.html">
+			<span class="frontcategs-img">
+				<img src="views/img/front-categories/frcateg6.png" alt="">
+				<img src="views/img/front-categories/frcateg6h.png" alt="">
+			</span>
+			<p>Scooters</p>
+		</a>
+	</li>
+	<li>
+		<a href="views/catalog.html">
+			<span class="frontcategs-img">
+				<img src="views/img/front-categories/frcateg7.png" alt="">
+				<img src="views/img/front-categories/frcateg7h.png" alt="">
+			</span>
+			<p>Watercrafts</p>
+		</a>
+	</li>
+</ul>
+</div>
 
-                  <h3>Subscribe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <form action="" class="form-subscribe mb-5">
-                    <div class="form-group form-field">
-                      <input type="submit" value="Send" class="btn btn-primary">
-                      <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                  </form>
 
-                  <h3>Contact Us</h3>
-                  <p class="contact-email">info@yourdomain.com</p>
-                  <p class="contact-phone">1-444-123-9829</p>
-                  
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </footer>
+<!-- Frontpage Filter -->
+<div class="frontsearch-wrap">
+	<div class="cont frontsearch">
+		<h2>Search</h2>
+		<p class="frontsearch-count">21900 ITEMS</p>
+		<div class="frontsearch-wrap">
+			<div class="frontsearch-selects">
+				<div class="dropdown-wrap frontsearch-select">
+					<p class="dropdown-title frontsearch-select-ttl">Motorcycles</p>
+					<ul class="dropdown-list">
+						<li>
+							<a href="views/#">Choose Type</a>
+						</li>
+ 						<li>
+							<a href="views/#">Automobiles</a>
+						</li>
+						<li class="active">
+							<a href="views/#">Motorcycles</a>
+						</li>
+						<li>
+							<a href="views/#">ATVs</a>
+						</li>
+						<li>
+							<a href="views/#">Snowmobiles</a>
+						</li>
+						<li>
+							<a href="views/#">UTVs</a>
+						</li>
+						<li>
+							<a href="views/#">Scooters</a>
+						</li>
+						<li>
+							<a href="views/#">Watercrafts</a>
+						</li>
+					</ul>
+				</div>
+				<div class="dropdown-wrap frontsearch-select">
+					<p class="dropdown-title frontsearch-select-ttl">Enzo</p>
+					<ul class="dropdown-list">
+						<li>
+							<a href="views/#">Choose Model</a>
+						</li>
+						<li>
+							<a href="views/#">Jetmax</a>
+						</li>
+						<li>
+							<a href="views/#">Speeder</a>
+						</li>
+						<li>
+							<a href="views/#">PCG</a>
+						</li>
+						<li>
+							<a href="views/#">Sanchez</a>
+						</li>
+						<li>
+							<a href="views/#">Vader</a>
+						</li>
+						<li class="active">
+							<a href="views/#">Enzo</a>
+						</li>
+						<li>
+							<a href="views/#">Nex</a>
+						</li>
+					</ul>
+				</div>
+				<div class="dropdown-wrap frontsearch-select">
+					<p class="dropdown-title frontsearch-select-ttl">GT-Z600</p>
+					<ul class="dropdown-list">
+						<li>
+							<a href="views/#">Choose Version</a>
+						</li>
+						<li>
+							<a href="views/#">GT-Z10</a>
+						</li>
+						<li>
+							<a href="views/#">GT-Z400</a>
+						</li>
+						<li class="active">
+							<a href="views/#">GT-Z600</a>
+						</li>
+						<li>
+							<a href="views/#">H-200</a>
+						</li>
+						<li>
+							<a href="views/#">H-300</a>
+						</li>
+						<li>
+							<a href="views/#">F10</a>
+						</li>
+						<li>
+							<a href="views/#">F20</a>
+						</li>
+						<li>
+							<a href="views/#">A120</a>
+						</li>
+					</ul>
+				</div>
+				<div class="dropdown-wrap frontsearch-select dropdown-wrap-range">
+					<p id="range_year_ttl" class="dropdown-title frontsearch-select-ttl">2013 - 2016</p>
+					<ul class="dropdown-list">
+						<li>
+							<input type="text" id="range_year" value="">
+						</li>
+					</ul>
+				</div>
+				<div class="dropdown-wrap frontsearch-select dropdown-wrap-range">
+					<p id="range_cost_ttl" class="dropdown-title frontsearch-select-ttl">$200 - $14.000</p>
+					<ul class="dropdown-list">
+						<li>
+							<input type="text" id="range_cost" value="">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="frontsearch-cont" id="frontsearch-cont" data-lines-count="20">
+				<p class="frontsearch-img">
+					<img src="views/img/filter-img.png" alt="">
+				</p>
+				<p class="frontsearch-model">GT-Z600</p>
 
-      <div class="site-footer-copyright">
-        <div class="container">
-          <div class="row">
+				<div class="frontsearch-res frontsearch-res1"><a href="views/catalog.html"><span>260</span> Hand Controls</a></div>
+				<div class="frontsearch-point frontsearch-point1"></div>
 
-             <p class="footer-text col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#>https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
+				<div class="frontsearch-res frontsearch-res2"><a href="views/catalog.html"><span>14</span> Seats</a></div>
+				<div class="frontsearch-point frontsearch-point2"></div>
 
-    </div>
+				<div class="frontsearch-res frontsearch-res3"><a href="views/catalog.html"><span>2</span> Windshields</a></div>
+				<div class="frontsearch-point frontsearch-point3"></div>
 
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
-  </body>
+				<div class="frontsearch-res frontsearch-res4"><a href="views/catalog.html">Exhausts <span>103</span></a></div>
+				<div class="frontsearch-point frontsearch-point4"></div>
+
+				<div class="frontsearch-res frontsearch-res5"><a href="views/catalog.html"><span>267</span> Lightings</a></div>
+				<div class="frontsearch-point frontsearch-point5"></div>
+
+				<div class="frontsearch-res frontsearch-res6"><a href="views/catalog.html">Brake Shoes <span>6</span></a></div>
+				<div class="frontsearch-point frontsearch-point6"></div>
+
+				<div class="frontsearch-res frontsearch-res7"><a href="views/catalog.html"><span>34</span> Wheels</a></div>
+				<div class="frontsearch-point frontsearch-point7"></div>
+
+				<div class="frontsearch-res frontsearch-res8"><a href="views/catalog.html"><span>874</span> Engines</a></div>
+				<div class="frontsearch-point frontsearch-point8"></div>
+
+				<div class="frontsearch-res frontsearch-res9"><a href="views/catalog.html"><span>54</span> Filtres</a></div>
+				<div class="frontsearch-point frontsearch-point9"></div>
+
+				<div class="frontsearch-res frontsearch-res10"><a href="views/catalog.html"><span>15</span> Tires</a></div>
+				<div class="frontsearch-point frontsearch-point10"></div>
+
+			</div>
+		</div>
+		<span class="frontsearch-line1"></span>
+		<span class="frontsearch-line2"></span>
+	</div>
+</div>
+
+
+
+
+<!-- Special Deals Items -->
+<div class="specials-wrap">
+	<div class="cont specials">
+		<h2>Special Deals</h2>
+		<p class="specials-count">350 ITEMS</p>
+		<div class="specials-list">
+			<div class="special special-pseudo">
+				<a href="views/#" class="special-link"></a>
+			</div>
+			<div class="special special-first">
+				<a href="views/product.html" class="special-link">
+					<p class="special-img">
+						<img src="views/img/spec1.jpg" alt="">
+					</p>
+					<h3><span>Nulla lacinia lectus</span></h3>
+				</a>
+				<p class="special-info">
+					<a href="views/#" class="special-categ">Suspensions</a>
+					<span class="special-price">$200</span>
+					<del>$400</del>
+					<a href="views/#" class="special-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="special">
+				<a href="views/product.html" class="special-link">
+					<p class="special-img">
+						<img src="views/img/spec2.jpg" alt="">
+					</p>
+					<h3><span>Praesent amet mollis</span></h3>
+				</a>
+				<p class="special-info">
+					<a href="views/#" class="special-categ">Brakes</a>
+					<span class="special-price">$312</span>
+					<a href="views/#" class="special-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="special">
+				<a href="views/product.html" class="special-link">
+					<p class="special-img">
+						<img src="views/img/spec3.jpg" alt="">
+					</p>
+					<h3><span>Mauris suscipit tellus</span></h3>
+				</a>
+				<p class="special-info">
+					<a href="views/#" class="special-categ">Gauges</a>
+					<span class="special-price">$230.50</span>
+					<a href="views/#" class="special-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="special">
+				<a href="views/product.html" class="special-link">
+					<p class="special-img">
+						<img src="views/img/spec4.jpg" alt="">
+					</p>
+					<h3><span>Suspendisse lobortis</span></h3>
+				</a>
+				<p class="special-info">
+					<a href="views/#" class="special-categ">Filters</a>
+					<span class="special-price">$1290</span>
+					<a href="views/#" class="special-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="special">
+				<a href="views/product.html" class="special-link">
+					<p class="special-img">
+						<img src="views/img/spec5.jpg" alt="">
+					</p>
+					<h3><span>Nam iaculis risus nisi</span></h3>
+				</a>
+				<p class="special-info">
+					<a href="views/#" class="special-categ">Sprockets</a>
+					<span class="special-price">$1180</span>
+					<a href="views/#" class="special-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="special">
+				<a href="views/product.html" class="special-link">
+					<p class="special-img">
+						<img src="views/img/spec6.jpg" alt="">
+					</p>
+					<h3><span>Sed fermentum elit</span></h3>
+				</a>
+				<p class="special-info">
+					<a href="views/#" class="special-categ">Spark Plugs</a>
+					<span class="special-price">$305</span>
+					<a href="views/#" class="special-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="special">
+				<a href="views/product.html" class="special-link">
+					<p class="special-img">
+						<img src="views/img/spec7.jpg" alt="">
+					</p>
+					<h3><span>Mauris suscipit tellus</span></h3>
+				</a>
+				<p class="special-info">
+					<a href="views/#" class="special-categ">Springs</a>
+					<span class="special-price">$230.30</span>
+					<a href="views/#" class="special-add">+ Add to cart</a>
+				</p>
+			</div>
+		</div>
+		<p class="special-more">
+			<a href="views/#">show more</a>
+		</p>
+		<span class="special-line1"></span>
+		<span class="special-line2"></span>
+	</div>
+</div>
+
+
+
+<!-- Get a Special Deals -->
+<div class="getspec-wrap">
+	<div class="cont getspec">
+		<div class="getspec-cont">
+			<h3>Winter is coming</h3>
+			<p>New snowmobile parts</p>
+			<form action="#" class="form-validate">
+				<input data-required="text" data-required-email="email" type="text" placeholder="Email address" name="email3">
+				<input type="submit" value="Get a special deals">
+			</form>
+		</div>
+		<a href="views/#" class="getspec-img">
+			<img src="views/img/getspec.jpg" alt="">
+		</a>
+	</div>
+</div>
+
+
+
+<!-- Popular Items -->
+<div class="populars-wrap">
+	<div class="cont populars">
+		<h2>Popular</h2>
+		<p class="populars-count">7 ITEMS</p>
+		<div class="populars-list">
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop1.jpg" alt="">
+					</p>
+					<h3><span>Suspendisse lobortis</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Helmets</a>
+					<span class="popular-price">$290</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop2.jpg" alt="">
+					</p>
+					<h3><span>Nulla lacinia lectus</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Filtres</a>
+					<span class="popular-price">$1180</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop3.jpg" alt="">
+					</p>
+					<h3><span>Praesent amet mollis</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Batteries</a>
+					<span class="popular-price">$312</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop4.jpg" alt="">
+					</p>
+					<h3><span>Mauris suscipit tellus</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Boots</a>
+					<span class="popular-price">$230.50</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop5.jpg" alt="">
+					</p>
+					<h3><span>Suspendisse lobortis</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Breaks</a>
+					<span class="popular-price">$1290</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop6.jpg" alt="">
+					</p>
+					<h3><span>Nam iaculis risus nisi</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Bearings</a>
+					<span class="popular-price">$1180</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop7.jpg" alt="">
+					</p>
+					<h3><span>Sed fermentum elit</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Parts</a>
+					<span class="popular-price">$305</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+			<div class="popular">
+				<a href="views/product.html" class="popular-link">
+					<p class="popular-img">
+						<img src="views/img/pop8.jpg" alt="">
+					</p>
+					<h3><span>Mauris suscipit tellus</span></h3>
+				</a>
+				<p class="popular-info">
+					<a href="views/#" class="popular-categ">Lights</a>
+					<span class="popular-price">$230.30</span>
+					<a href="views/#" class="popular-add">+ Add to cart</a>
+				</p>
+			</div>
+		</div>
+		<p class="popular-more">
+			<a href="views/#">show more</a>
+		</p>
+		<span class="popular-line1"></span>
+		<span class="popular-line2"></span>
+	</div>
+</div>
+
+
+<!-- Frontpage Article -->
+<div class="botarticle-wrap">
+	<div class="cont botarticle">
+		<div class="botarticle-cont">
+			<h3>Kings of the dirt</h3>
+			<p>Best motocross gear</p>
+			<a href="views/#" class="botarticle-more">Read more</a>
+		</div>
+		<a href="views/blog.html" class="botarticle-img">
+			<img src="views/img/article1.jpg" alt="">
+		</a>
+	</div>
+</div>
+
+
+</main>
+<!-- Main Content - end -->
+
+
+<!-- Footer - start -->
+<footer class="footer">
+	<div class="cont footer-top">
+
+		<!-- Footer Menu -->
+		<div class="footer-menu">
+			<p>Company</p>
+			<ul>
+				<li><a href="views/#">Shipping</a></li>
+				<li><a href="views/#">Careers</a></li>
+				<li><a href="views/#">About us</a></li>
+			</ul>
+		</div>
+		<div class="footer-menu">
+			<p>Information</p>
+			<ul>
+				<li><a href="views/#">Affiliate Program</a></li>
+				<li><a href="views/#">Privacy Policy</a></li>
+				<li><a href="views/#">Site Map</a></li>
+				<li><a href="views/#">Search Terms</a></li>
+			</ul>
+		</div>
+		<div class="footer-menu">
+			<p>Account & Orders</p>
+			<ul>
+				<li><a href="views/#">My Account</a></li>
+				<li><a href="views/#">My Garage</a></li>
+				<li><a href="views/#">Shopping Cart</a></li>
+				<li><a href="views/#">Order Status</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-info">
+			<p class="footer-msg">Our online support is available <a class="callback" href="views/#">Send us a message</a></p>
+			<ul class="footer-social">
+				<li>
+					<a rel="nofollow" target="_blank" href="views/http://facebook.com">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="views/mailto:email@email.com">
+						<i class="fa fa-paper-plane"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="views/http://pinterest.com">
+						<i class="fa fa-pinterest-p"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="views/http://youtube.com">
+						<i class="fa fa-youtube-play"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="views/http://twitter.com">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="views/http://google.com">
+						<i class="fa fa-google-plus"></i>
+					</a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="views/http://twitter.com">
+						<i class="fa fa-share-alt"></i>
+					</a>
+				</li>
+			</ul>
+			<form action="#" class="form-validate">
+				<input data-required="text" data-required-email="email" type="text" placeholder="Email address" name="email1">
+				<input type="submit" value="Subscribe">
+			</form>
+		</div>
+
+	</div>
+	<div class="copyright">
+		<p class="cont">© 2016 Stockware All Right Received</p>
+	</div>
+</footer>
+<!-- Footer - end -->
+
+
+<!-- Modal Form -->
+<div id="modal-form" class="modal-form">
+	<p class="modal-form-ttl">Contact Us</p>
+	<form action="#" class="form-validate">
+		<input data-required="text" type="text" placeholder="Name" name="name2">
+		<input data-required="text" type="text" placeholder="Phone" name="phone2">
+		<input data-required="text" data-required-email="email" type="text" placeholder="Email" name="email2">
+		<textarea placeholder="Your message" name="mess2"></textarea>
+		<input type="submit" value="Send">
+	</form>
+</div>
+
+
+<script src="views/js/jquery-1.12.3.min.js"></script>
+<script src="views/js/fancybox/fancybox.js"></script>
+<script src="views/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+<script src="views/js/jquery.flexslider-min.js"></script>
+<script src="views/js/masonry.pkgd.min.js"></script>
+
+<script src="views/js/jquery.fractionslider.min.js"></script>
+<script src="views/js/ion.rangeSlider.min.js"></script>
+
+<script src="views/js/main.js"></script>
+
+<script>
+"use strict";
+// Range Slider
+$(document).ready(function () {
+	var $range_cost = $("#range_cost");
+	$range_cost.ionRangeSlider({
+	    type: "double",
+	    grid: true,
+	    min: 0,
+	    max: 20000,
+	    from: 200,
+	    to: 14000,
+	    prefix: "$",
+	});
+	$range_cost.on("change", function () {
+	    var $this = $(this),
+	        value = $this.prop("value").split(";");
+
+	    $('#range_cost_ttl').html("$" + value[0] + " - $" + value[1]);
+	});
+	var $range_year = $("#range_year");
+	$range_year.ionRangeSlider({
+	    type: "double",
+	    grid: true,
+	    min: 1990,
+	    max: 2016,
+	    from: 2013,
+	    to: 2016,
+	});
+	$range_year.on("change", function () {
+	    var $this = $(this),
+	        value = $this.prop("value").split(";");
+
+	    $('#range_year_ttl').html(value[0] + " - " + value[1]);
+	});
+});
+</script>
+
+</body>
 </html>
